@@ -14,9 +14,11 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .name-font{
-	font-family:'Amandine Light', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family:'amandine', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	color: #800020
 }
+h2{font-family:'amandine', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #800020;}
 .resume-header {
     background-color: #F4E2F5;
 }
@@ -58,7 +60,7 @@ body {
 .biography-details li, .skill-list li {
 	padding-left: 1em;
 }
-
+a:link{color:#450303;}
 /* Styles for contact icons */
 
 .contact-icon {
