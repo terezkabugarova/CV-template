@@ -2,7 +2,7 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://use.typekit.net/lnf0yxn.css');
 /* Styles for the body */
 
 body {
@@ -13,6 +13,10 @@ body {
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+.name-font{
+	font-family:'Amandine Light', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #800020
+}
 .resume-header {
     background-color: #F4E2F5;
 }
@@ -35,6 +39,18 @@ body {
 	margin-left: -1em;
 }
 
+.language-level .language-progress {
+    background-color: #F4E2F5 !important; /* Change to your desired color */
+}
+ 
+.language-level  {
+    background-color: #F1ECEA !important; /* Change to your desired color */
+}
+.language-level {
+    border: 4px solid #F8F4F1; /* Change to your desired border color */
+    border-color: #F8F4F1 !important;
+    border-radius: 0px; /* Optional: Add rounded corners */
+}
 .biography-details li::before {
 	color: #EE7623;
 }
